@@ -2,5 +2,4 @@
 
 npm i
 npm audit fix -f
-npm run build && mv dist/template out
-rm -r dist
+npm run build && mv dist/template/* /out
